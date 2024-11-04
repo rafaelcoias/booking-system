@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #0070f3;
+    --secondary: #ff0080;
+    --success: #00ff00;
+    --error: #ff0000;
+    --warning: #ff9900;
+    --info: #00ffff;
+    --primary-light: #3291ff;
+    --primary-dark: #0766d8;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
